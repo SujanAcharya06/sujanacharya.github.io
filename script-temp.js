@@ -14,6 +14,7 @@ titles.forEach(title => {
 	title.addEventListener("mouseenter", () => {
 		const randomVideo = videos[Math.floor(Math.random() * videos.length)];
 		hoverVideo.src = randomVideo;
+		hoverVideo.loop = true
 
 		hoverVideo.muted = true;
 		hoverVideo.style.display = "block";
