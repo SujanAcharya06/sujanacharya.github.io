@@ -1,8 +1,8 @@
 // assets/.tmp/script-temp.js
 
 const videos = [
-	"./assets/.tmp/vid1.mp4",
-	"./assets/.tmp/vid2.mp4",
+	"./assets/videos/vid1.mp4",
+	"./assets/videos/vid2.mp4",
 ];
 
 
